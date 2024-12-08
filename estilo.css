@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .contact-info img {
+  width: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+/* Home */
+#home {
+  text-align: center;
+  background: linear-gradient(to bottom, #768aa8, #f5f5f5);
+  padding: 20px 0;
+}
+
+#home .banner-content h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#home .banner-content img {
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+#home .banner-content button {
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#home .banner-content button:hover {
+  background-color: #cc6e00;
+}
+
+/* Tudo em um só lugar */
+#tudo-em-um-so-lugar {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#tudo-em-um-so-lugar h1 {
+  color: #000;
+  margin-bottom: 30px;
+}
+
+#tudo-em-um-so-lugar div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#tudo-em-um-so-lugar div div {
+  text-align: center;
+}
+
+#tudo-em-um-so-lugar div div h3 {
+  margin: 10px 0;
+}
+
+#tudo-em-um-so-lugar div div img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#tudo-em-um-so-lugar div div button {
+  background-color: #ff8800;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Sobre Nós */
+#sobre-nós {
+  background-color: #eef7ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#sobre-nós h2 {
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+#sobre-nós p {
+  margin: 10px 0;
+  color: #333;
+}
+
+#sobre-nós img {
+  width: 80px;
+  height: auto;
+  margin: 10px 5px;
+}
+
+/* Diferenciais */
+#diferenciais {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#diferenciais h2 {
+  color: #ff8800;
+  margin-bottom: 20px;
+}
+
+#diferenciais p {
+  margin: 10px 0;
+}
+
+#diferenciais .diferencias-gallery img {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+}
+
+/* Contato */
+#contato {
+  background-color: #ffcc00;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#contato form input,
+#contato form textarea,
+#contato form button {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contato form button {
+  background-color: #0056b3;
+  color: #fff;
+  cursor: pointer;
+}
+
+#contato form button:hover {
+  background-color: #003d80;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 50px;
+  height: auto;
+  margin-top: 10px;
+}
